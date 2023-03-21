@@ -18,6 +18,7 @@ Azure Arc 不支持在Azure VM 上运行的SQL Server，但是可以参考 [Eval
 
 ![image](https://user-images.githubusercontent.com/34478391/226508795-fbccc931-f8cc-4da9-b08b-7da0900b8f99.png)
 
+下载.ps1脚本
 
 ![image](https://user-images.githubusercontent.com/34478391/226508846-8bd393bf-0230-4aae-8ad8-9bf9f45ae47e.png)
 
