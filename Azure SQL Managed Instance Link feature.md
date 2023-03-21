@@ -1,13 +1,14 @@
 # 实验目标
 
-本次实验
+Azure SQL Managed Instance 是一种智能、可缩放的云数据库服务；它将最广泛的 SQL Server 数据库引擎兼容性与完全托管且经久不衰的平台即服务的所有优势相结合。本次实验将Azure VM中的 SQL Server 和 Azure SQL Managed Instance 相连，并在SQL Managed Instance中实时同步、查看 SQL Server中的数据更新。
 
+
+
+# 实验环境准备
 
 本实验延用[Azure Arc Enabled SQL Server](https://github.com/ZuoXuangn/SQLdemo/blob/main/Azure%20Arc%20Enabled%20SQL%20Server.md)中创建的 VM (Windows Server)进行测试。
 
 实验中需要创建的 SQL Managed Instance 以及 subnet 均已配置
-
-# 实验环境准备
 
 ## 1. 配置 SQL Managed Instance 环境
 
