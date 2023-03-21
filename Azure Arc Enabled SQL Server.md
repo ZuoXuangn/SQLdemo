@@ -1,6 +1,6 @@
 # 实验目标
 
-本次实验
+Azure Arc-enabled SQL Server 允许管理本地Windows 和 Linux 物理服务器以及托管在 Azure 外部、公司网络或其他云提供商上的虚拟机。本次实验使用Azure VM 来测试 Azure Arc enbaled SQL Server 的效果,模拟Azure 门户管理混合环境下的 SQL Server.
 
 # 实验环境准备
 
@@ -14,7 +14,7 @@
 
 ## 2. 配置 Windows VM 进行测试
 
-Azure Arc 不支持在Azure VM 上运行的SQL Server，但是可以参考 [Evaluate Azure Arc-enabled servers on an Azure virtual machine](https://learn.microsoft.com/zh-cn/azure/azure-arc/servers/plan-evaluate-on-azure-virtual-machine#reconfigure-azure-vm)对VM进行配置，用于本次实验测试
+Azure Arc 并不支持在Azure VM 上运行的SQL Server，但是可以参考 [Evaluate Azure Arc-enabled servers on an Azure virtual machine](https://learn.microsoft.com/zh-cn/azure/azure-arc/servers/plan-evaluate-on-azure-virtual-machine#reconfigure-azure-vm)对VM进行配置，用于本次实验测试
 
 ![image](https://user-images.githubusercontent.com/34478391/226508124-7f2d5c42-236b-4680-99d3-c9a47b8bfb6e.png)
 
