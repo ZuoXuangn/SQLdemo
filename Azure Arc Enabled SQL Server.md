@@ -20,3 +20,18 @@ Azure Arc 不支持在Azure VM 上运行的SQL Server，可以参考 [Evaluate A
 
 
 ![image](https://user-images.githubusercontent.com/34478391/226508846-8bd393bf-0230-4aae-8ad8-9bf9f45ae47e.png)
+
+在 Window VM powershell上运行脚本 RegisterSqlServerArc.ps1，如果出现报错 ".ps1 is not digitally signed."：
+
+![image](https://user-images.githubusercontent.com/34478391/226509131-bf212212-6d73-4077-bc9b-302d87209190.png)
+
+请在 powershell中用Set-ExectionPolicy 设置执行策略：
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+再重新运行RegisterSqlServerArc.ps1
+
+![image](https://user-images.githubusercontent.com/34478391/226509579-dddfbcc7-ccd3-4bca-8d7b-632ae9c1eb92.png)
+
+
