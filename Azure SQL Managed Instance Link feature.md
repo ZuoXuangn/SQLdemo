@@ -55,7 +55,7 @@ New-NetFirewallRule -DisplayName "Allow TCP port 5022 outbound" -Direction outbo
 
 ### 3.2建表测试
 
-在Windows VM SQL Server 上创建一个新表，并插入数据：
+在Windows VM 的 SQL Server 上创建一个新表，并插入数据：
 ```
 CREATE TABLE tbl_user (
     id INT IDENTITY(1,1) PRIMARY KEY,
