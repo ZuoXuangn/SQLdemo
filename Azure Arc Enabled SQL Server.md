@@ -31,8 +31,36 @@ Azure Arc 不支持在Azure VM 上运行的SQL Server，但是可以参考 [Eval
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
-再重新运行RegisterSqlServerArc.ps1
+再重新运行RegisterSqlServerArc.ps1即可
 
 ![image](https://user-images.githubusercontent.com/34478391/226509579-dddfbcc7-ccd3-4bca-8d7b-632ae9c1eb92.png)
+
+# 4. 在 Windows VM 上安装 SQL Server
+
+参考 [安装SQL 2022](https://learn.microsoft.com/zh-cn/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup?view=sql-server-ver16#install-sql-server-2022),licenseTerms 选择 PAYG-Enterprise版本，Instance feature 只选择 "Data Engine Services"即可。
+
+![image](https://user-images.githubusercontent.com/34478391/226510918-5a39d7e8-663b-4c2b-a833-44bc34e984d9.png)
+
+
+![image](https://user-images.githubusercontent.com/34478391/226510930-cf332dc1-5b6e-4d7f-9469-5030e6b36875.png)
+
+
+![image](https://user-images.githubusercontent.com/34478391/226510946-ab7b3cb4-ccc4-47cf-94af-51716f397339.png)
+
+
+![image](https://user-images.githubusercontent.com/34478391/226510953-e25fa60b-b3ac-4564-8d9d-075843928f7d.png)
+
+如果VM上没有 SSMS (SQL Server Management Studio), [下载SSMS](https://aka.ms/ssmsfullsetup)并安装。
+
+# 5.SQL Server安装好之后，等待一个小时，即可在 Azure Arc上看到已经安装好的SQL Server
+
+connect成功的示图如下：
+
+![image](https://user-images.githubusercontent.com/34478391/226511773-09998476-85f7-4cd4-9269-f533fadcaf0f.png)
+
+![image](https://user-images.githubusercontent.com/34478391/226511887-c580ee4d-0f4e-4b80-8cac-ff291d65b26b.png)
+
+
+
 
 
