@@ -6,7 +6,7 @@
 
 本实验所需权限以及 resource provider 均已配置
 
-## 1.创建window虚机#
+## 1.创建window Server VM
 
 参考[Quickstart: Create a Windows virtual machine in the Azure portal](https://learn.microsoft.com/zh-cn/azure/virtual-machines/windows/quick-create-portal),region 选择 "japaneast"，availability zone 选择"No infrastructure redundancy required",Image选择 "Windows Server 2022 Datacenter: Azure Edition - x64 Gen2"
 
